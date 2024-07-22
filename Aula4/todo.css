@@ -1,0 +1,63 @@
+/*para todo*/
+* {
+    font-size: large;
+    color: crimson;
+}
+
+/* Por elemento */
+p{ font-size: smaller;
+    color:cornflowerblue;
+}
+
+/*por grupo */
+h1,h2,h3 {
+    font-size: x-large;
+    color:cadetblue;
+}
+
+/*Descendente*/
+nav a{
+    color:coral;
+}
+
+/*individual : por id do elemento
+
+#idElemento
+*/
+
+#conteudo{
+    background-color: bisque;
+}
+
+/* Classes 
+.nomeClasse = generica
+elemento.nomeClasse = classe vinculada a 
+um tipo de elemento
+*/
+
+li.item{
+    color: cadetblue;
+}
+
+.generica{
+    color:darkblue;
+}
+
+/* configurar box model*/
+#secao{
+    border: 5px solid black;
+}
+
+p.borda{
+    border-bottom: 3px;
+    border-top: 1px;
+    border-left: 2px;
+    border-right: 5px;
+    border-style: dashed;
+    border-color: blueviolet;
+    margin: 20px; /*margem fora da borda*/
+    padding: 10px; /*margem dentro da borda*/
+}
+
+
+
