@@ -62,9 +62,13 @@ p.col{
 }
 
 #texto1{
-    -moz-column-rule: 3px blueviolet solid;
+    column-rule: 3px blueviolet solid;
+    column-gap: 5px;
+    columns: 2;
+
+    -moz-column-rule: 2px blueviolet dashed;
     -moz-column-gap: 5px;
-    -moz-columns: 2;
+    -moz-columns: 3;
 
     -webkit-column-rule: 6px brown solid;
     -webkit-column-gap: 10px;
