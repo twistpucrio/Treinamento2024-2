@@ -1,0 +1,39 @@
+#container{
+
+}
+#header{
+
+}
+
+#navigator{
+
+}
+
+#main{
+
+}
+
+#calc{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+
+}
+
+footer{
+
+}
+
+.espaco{
+    padding: 2% 1%;
+    margin: 2% 0.5%;
+}
+
+.btn{
+    width: 10%;
+    text-align: center;
+    padding: 2% 1%;
+    margin: 2% 0.5%;
+}

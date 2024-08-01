@@ -47,15 +47,27 @@ function mostrarDados(){
     texto+= "\n";
     texto += document.querySelector('#txtCpf').value;
     texto+= "\n";
-    //texto += document.getElementsByName("hobbies").checked;
-    /** da linha 52  a 58  não foi testado
-     *  vamos retomar na quinta
+    /** da linha 52  a 58  testado ok
+     *  vamos retomar na quinta - OK
     */
     let livro = document.querySelector('#livros');
     if (livro.checked){
         texto+= document.querySelector('#livros').value;
-        livro+= 'style= color: #f00';
+        texto += "\n***********\n"
     }
-    alert(texto);
+
+    //continuação na quinta 01/08
+    // pegar todos os checkbox
+    let hobbies = document.getElementsByName('hobbies');
+    //console.log(hobbies);
+
+    for( h of hobbies){
+        if(h.checked){
+            texto += h.value;
+            texto+= "\n"
+        }
+        //console.log(h.value);
+    }
+  alert(texto);
 }
 
