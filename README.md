@@ -1,4 +1,4 @@
-# Treinamento2024-2
+<center> # Treinamento2024-2 </center>
 
 Treinamento de introdução a front-end utilizando as tecnologias: HTML, CSS e JavaScript;
 
