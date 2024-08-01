@@ -1,0 +1,37 @@
+/*Regras de fontFace*/
+
+@font-face {
+    font-family:'play_exligth';
+    src: url(fonts/font1/static/PlaywriteBEVLG-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'play-normal';
+    src: url(fonts/font1/static/PlaywriteBEVLG-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'play_light';
+    src: url(fonts/font1/static/PlaywriteBEVLG-Light.ttf);
+}
+
+p.fonte1{
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'play-normal';
+    color:blueviolet;
+}
+
+div.conteudo{
+    width: 30%;
+    height: 30%;
+    background-color: beige;
+    display: inline-block;
+}
+
+#conteudo2{
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'play_light';
+    color:brown;
+}

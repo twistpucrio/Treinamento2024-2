@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/font.css">
+    <script src="script/funcoes.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header id="header"></header>
+        <nav id="navigator"></nav>
+        <section id="main">
+           <article id="calc">
+                <form action="">
+                    <fieldset>
+                        <legend>Calculadora</legend>
+                        <label for="val1" class="espaco"> 
+                            Valor 1: 
+                        </label>
+                        <input type="text" name="val1" 
+                               id="val1" class="espaco">
+                        <br/>
+                        <label for="val2" class="espaco">
+                            Valor 2: 
+                        </label>
+                        <input type="text" name="val2"
+                                id="val2" class="espaco">
+                        <br/>
+                        <label for="result" class="espaco">
+                            Resultado: 
+                        </label>
+                        <input type="text" name="result"
+                                id="result" class="espaco"
+                                readonly>
+                        <br/>
+                        <button type="button" id="soma" 
+                                name="soma" class="btn">
+                            +
+                        </button>
+                        &nbsp;
+                        <button type="button" id="sub" 
+                                name="sub" class="btn">
+                            -
+                        </button>
+                        &nbsp;
+                        <button type="button" id="mult" 
+                                name="mult" class="btn">
+                            x
+                        </button>
+                        &nbsp;
+                        <button type="button" id="div" 
+                                name="div" class="btn">
+                            /
+                        </button>
+                        &nbsp;
+                        <button type="button" id="limpa" 
+                                name="limpa" class="btn">
+                            C
+                        </button>
+                        <div id="teste"></div>
+                    </fieldset>
+                </form>
+           </article>
+            
+        </section>
+        <footer id="footer"></footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1{
+    color: cornflowerblue;
+    font-style: oblique;
+    font-family: tahoma;
+    font-size: x-large;
+}
+
+p{
+    color: aliceblue;
+    background-color: cadetblue;
+    font-size: medium;
+    font-family: 'Tahoma';
+}
+
+a{
+    color:blueviolet;
+    
+}
+/*
+ Comentários
+*/
